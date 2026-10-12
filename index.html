@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#07070c" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Ehtesham Ahmed — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">EA</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Ehtesham Ahmed</h1>
+      <p class="hero-role">Python Backend Developer &amp; CS Engineer</p>
+      <p class="hero-sub">I build clean, reliable backend systems — FastAPI, Django, REST APIs &amp; more.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-links">
+        <a href="mailto:eh722783@gmail.com" title="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/ehtesham-ahmed-14ab22256" target="_blank" title="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/dashboard" target="_blank" title="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">A bit about me</h2>
+          <p>I'm a Computer Science &amp; Engineering graduate with a specialisation in IoT from Presidency University, Bengaluru. I'm passionate about building backend systems that are fast, secure and maintainable.</p>
+          <p>I've shipped full-stack applications ranging from a Django e-commerce platform with Stripe payments to a React.js + FastAPI healthcare dashboard with JWT authentication and role-based access control.</p>
+          <p>When I'm not writing Python, I'm exploring machine learning, tinkering with APIs, or working on open-source projects.</p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Education</span>
+              <span class="meta-value">B.Tech CSE (IoT) — 6.93 CGPA</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">Bengaluru, India</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Languages</span>
+              <span class="meta-value">English · Hindi · Urdu</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="card-initials"><span>EA</span></div>
+          <div class="card-tags">
+            <span>Python</span><span>FastAPI</span><span>Django</span>
+            <span>React.js</span><span>MongoDB</span><span>REST APIs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">What I work with</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            Programming
+          </h3>
+          <div class="skill-pills">
+            <span>Python</span><span>JavaScript</span><span>Java</span>
+            <span>C</span><span>C#</span><span>PHP</span><span>R</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+            Backend
+          </h3>
+          <div class="skill-pills">
+            <span>FastAPI</span><span>Django</span><span>ASP.NET</span>
+            <span>Node.js</span><span>REST APIs</span><span>JWT Auth</span>
+            <span>RBAC</span><span>Stripe API</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            Frontend
+          </h3>
+          <div class="skill-pills">
+            <span>React.js</span><span>HTML</span><span>CSS</span>
+            <span>Bootstrap</span><span>Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+            Databases
+          </h3>
+          <div class="skill-pills">
+            <span>MongoDB</span><span>MySQL</span><span>SQL Server</span><span>SQLite</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Soft Skills
+          </h3>
+          <div class="skill-pills">
+            <span>Problem-Solving</span><span>Teamwork</span>
+            <span>Project Management</span><span>Adaptability</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🛒</div>
+            <div class="project-links">
+              <a href="#" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            </div>
+          </div>
+          <h3>Django E-Commerce Platform</h3>
+          <p>Full-stack e-commerce app with product categories, shopping cart, order management, Stripe card payments, coupon-code discounts and a refund-request workflow. Auth via django-allauth with Google sign-in.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>Stripe API</span><span>django-allauth</span><span>SQLite</span><span>Bootstrap 4</span>
+          </div>
+        </div>
+
+        <div class="project-card project-featured">
+          <div class="project-top">
+            <div class="project-icon">🏥</div>
+            <div class="project-links">
+              <a href="#" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            </div>
+          </div>
+          <h3>HealthSecure — Healthcare Dashboard</h3>
+          <p>Full healthcare management platform with separate admin &amp; patient interfaces, JWT-based auth, RBAC, compliance monitoring, anomaly detection, appointment scheduling, lab results and billing management.</p>
+          <div class="project-stack">
+            <span>React.js</span><span>FastAPI</span><span>MongoDB</span><span>JWT</span><span>RBAC</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🔍</div>
+            <div class="project-links">
+              <a href="#" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            </div>
+          </div>
+          <h3>Phishing Detection Tool</h3>
+          <p>Python-based URL classifier using rule-based heuristics — suspicious keywords, lookalike characters, hyphenated domains. Integrates WHOIS domain-age lookups and Google Safe Browsing API for real-time classification.</p>
+          <div class="project-stack">
+            <span>Python</span><span>WHOIS</span><span>Google Safe Browsing API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">📝</div>
+            <div class="project-links">
+              <a href="#" title="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            </div>
+          </div>
+          <h3>Online Examination System</h3>
+          <p>Web-based exam platform supporting MCQ and theory-based exams. Includes student registration, exam workflows, an admin panel for creating and evaluating exams, and a real-time leaderboard.</p>
+          <div class="project-stack">
+            <span>C#</span><span>ASP.NET</span><span>SQL Server</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-label">04 — Experience &amp; Education</div>
+      <h2 class="section-title">My journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Jan 2026 — May 2026</span>
+            <h3>Junior Intern</h3>
+            <p class="timeline-org">HackerHub8 LLP · Bengaluru, Karnataka</p>
+            <p>Collaborated with team members to complete assigned tasks across projects and learning activities.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 — 2026</span>
+            <h3>B.Tech — Computer Science &amp; Engineering (IoT)</h3>
+            <p class="timeline-org">Presidency University · Bengaluru, India</p>
+            <p>CGPA: 6.93 / 10. Shortlisted in Top 100 projects university-wide for Smart Energy Meter project.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="certs">
+        <h3 class="certs-title">Certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-item">
+            <span class="cert-icon">🎓</span>
+            <div>
+              <p class="cert-name">Machine Learning with Python</p>
+              <p class="cert-issuer">Cognitive Class</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🎓</span>
+            <div>
+              <p class="cert-name">Learn Java &amp; Python</p>
+              <p class="cert-issuer">CodeChef</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <span class="cert-icon">🎓</span>
+            <div>
+              <p class="cert-name">Web Development (HTML/CSS)</p>
+              <p class="cert-issuer">Cognitive Class</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label">05 — Contact</div>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="contact-sub">I'm currently open to new opportunities. Whether it's a project, internship, or just a chat — drop me a message.</p>
+      <div class="contact-grid">
+        <div class="contact-links">
+          <a href="mailto:eh722783@gmail.com" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">eh722783@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919693480460" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.27a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">+91 9693480460</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/ehtesham-ahmed-14ab22256" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">ehtesham-ahmed-14ab22256</span>
+            </div>
+          </a>
+          <a href="https://github.com/ehtesham12100/AI-ML" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">ehtesham12100/AI-ML</span>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form" onsubmit="handleForm(event)">
+          <div class="form-row">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your email" required />
+          </div>
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Your message..." rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <span>Ehtesham Ahmed</span> · 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
