@@ -595,6 +595,15 @@ body::after {
   font-size: 19px; font-weight: 700;
   color: var(--text);
 }
+.project-tagline {
+  color: #a78bfa !important;
+  font-family: var(--font-label);
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 1.5;
+  margin-top: -6px;
+  flex: none !important;
+}
 .project-card p { color: var(--text-muted); font-size: 14px; line-height: 1.75; flex: 1; font-weight: 300; }
 .project-stack { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
 .project-stack span {
